@@ -1,1 +1,6 @@
-# Github Pages
+---
+layout: default
+title: Home
+---
+
+# Home
