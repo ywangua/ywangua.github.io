@@ -1,7 +1,9 @@
 # Basic Site Settings
-# locale                   : "en-US"
-# site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-# title                    : "Dr. Yong Wang @ UARK"
-header_pages:
-  - index.md
-  - presentations.md
+locale: "en-US"
+title: "Single-Molecule & Single-Cell Nanometric Biophysics @ UARK"
+
+navigation:
+  - title: Home
+    url: /index.md
+  - title: Presentations
+    url: /presentations.html
