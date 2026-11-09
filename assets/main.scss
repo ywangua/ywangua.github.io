@@ -1,0 +1,71 @@
+---
+---
+
+// 1. Declare variables first
+$brand-color: #9D2235;
+
+// 2. Import the Minima framework
+@import "minima";
+
+// 3. Override class behaviors last
+.site-header {
+    background-color: #9D2235 !important;
+    border-top: none;
+    font-weight: bold;
+
+    .site-title,
+    .site-nav .page-link {
+        color: #ffffff !important;
+        font-weight: bold !important;
+
+        &:hover {
+            color: #ffffff !important;
+            text-decoration: none;
+        }
+    }
+}
+
+// 4. Make the content layout wider (Default Minima is 800px)
+.wrapper {
+    max-width: 1200px !important; /* Adjust this number to your preferred width */
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+}
+
+// 5. Fix mobile dropdown background and text colors
+@media screen and (max-width: 600px) {
+  .site-header {
+    // Targets the hamburger menu icon background lines
+    .nav-trigger + label .icon {
+      fill: #e2e2e2 !important;
+    }
+
+    // Targets the mobile dropdown container when expanded
+    .site-nav {
+      background-color: #9D2235 !important;
+      border: 1px solid rgba(0, 0, 0, 0.05) !important;
+
+      .trigger {
+        background-color: #9D2235 !important;
+      }
+
+      .page-link {
+        color: #ffffff !important;
+        padding: 10px 15px !important;
+        display: block !important;
+        
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.15) !important;
+        }
+      }
+    }
+  }
+}
+
+h1, h2 {
+  font-weight: bold !important;
+}
+
+.page-content .post-title {
+  display: none !important;
+}

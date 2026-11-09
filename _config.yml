@@ -1,9 +1,6 @@
-# Basic Site Settings
-locale: "en-US"
-title: "Single-Molecule & Single-Cell Nanometric Biophysics @ UARK"
+title: WangLab @ UARK
+theme: minima
 
-navigation:
-  - title: Home
-    url: /index.md
-  - title: Presentations
-    url: /presentations.html
+header_pages:
+  - index.md
+  - presentations.md

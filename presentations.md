@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: page
 title: Presentations
 ---
-
-## Presentations
-- 2026 TAOAPS Meeting (Corpus Christi, TX; 11/07/2026): [html](presentations/pres-2611-taoaps.html), [pdf](presentations/pres-2611-taoaps.pdf)
+# About Page
+This page is handled by Minima's default page template.
